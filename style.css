@@ -1,0 +1,107 @@
+
+.container-fluid{
+    max-width: 100vw;
+    min-height: 100%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    background-color: #CCFFE5;
+}
+.mainrow{
+    height: 100vh;
+}
+.maincontent{
+    background-image: url(img/glowna.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
+.nav{
+    height: 20vh;
+    
+}
+.onasrow{
+    height: 100vh;
+}
+.onas{
+    height:100vh;
+}
+.onaspng img{
+    background-size: cover;
+    height:100%;
+}
+.onaspng{
+    height:100%;
+}
+.onascontent{
+    text-align: center;
+    padding:40px 20px 40px 20px;
+    height: 100%;
+    background-color: aqua;
+}
+.fhouse{
+    height:100vh;
+}
+.fhousepng{
+    height:100%;
+}
+.fhousepng img{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+}
+.fhousecontent{
+    background-color:green;
+    height:100%;
+    text-align: center;
+}
+.onaspng{
+    
+}
+#dupa{
+    width:100vw;
+    height:100vh;
+    background-color:#CCFFE5;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2136;
+    padding: 60px 20px 60px 20px;
+}
+#isExpanded{
+    z-index: 2137;
+    
+}
+.navItem{
+    height:20vh;
+    font-size: 8vh;
+    text-align: center;
+}
+.mainMotto{
+    position:relative;
+    top:20vh;
+    text-align:center;
+}
+#navLogo{
+   width: 94%;
+    
+    text-align: center;
+    z-index: 619;
+    position:absolute;
+    display: inline-block;
+}
+.przycisk{
+    z-index: 620;
+}
+.hero-title{
+    font-size: 15vh;
+    font-family: Playfair Display;
+    color:#CCFFE5;
+}
+.small-title{
+    font-family: Playfair Display;
+    color:#CCFFE5;
+}
