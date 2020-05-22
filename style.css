@@ -1,4 +1,4 @@
-
+@import url(https://fonts.google.com/specimen/Playfair+Display?selection.family=Lato|Playfair+Display:ital,wght@1,500;1,900&subset=latin-ext&preview.text=&preview.text_type=custom);
 .container-fluid{
     max-width: 100vw;
     min-height: 100%;
@@ -26,26 +26,57 @@
     height: 100vh;
 }
 .onas{
-    height:100vh;
+    min-height:100vh;
 }
 .onaspng img{
     background-size: cover;
     height:100%;
+    position:absolute;
 }
 .onaspng{
-    height:100%;
-}
-.onascontent{
-    text-align: center;
-    padding:40px 20px 40px 20px;
-    height: 100%;
-    background-color: aqua;
-}
-.fhouse{
     height:100vh;
 }
+.onascontent{
+    text-align: justify;
+    
+    height: 100vh;
+    width:100%;
+    background-color: #a4dec0;
+    font-family: Playfair Display;
+    
+}
+.block-title{
+    font-size: 3.5em;
+    padding-top:30vh;
+    font-weight: 600;
+}
+.block-subtitle{
+    font-style: italic;
+    font-weight: 300;
+    
+}
+.button-is-blue{
+    height:50px;
+    width:100px;
+    background-color:#5ac7c1;
+    display:block;
+    position:absolute;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+    color: #CCFFE5;
+    margin-top: 20px;
+}
+.button-is-blue:hover{
+    text-decoration: none;
+    background-color:#49b6b0;
+    color: #CCFFE5;
+}
+.fhouse{
+    min-height:100vh;
+}
 .fhousepng{
-    height:100%;
+    height:100vh;
 }
 .fhousepng img{
     height: 100%;
@@ -54,9 +85,29 @@
     width:100%;
 }
 .fhousecontent{
-    background-color:green;
-    height:100%;
+    background-color:#78bf9b;
+    height:100vh;
+    text-align: justify;
+}
+.houses-title{
+    padding-top: 20vh;
+}
+.button-houses{
+    height:75px;
+    width:150px;
+    background-color:#5ac7c1;
+    display:block;
+    position:absolute;
+    font-size: 1.5em;
     text-align: center;
+    text-decoration: none;
+    color: #CCFFE5;
+    margin-top: 20px;
+}
+.button-houses:hover{
+    text-decoration: none;
+    background-color:#49b6b0;
+    color: #CCFFE5;
 }
 .onaspng{
     
@@ -97,12 +148,45 @@
     z-index: 620;
 }
 .hero-title{
-    font-size: 15vh;
-    font-family: Playfair Display;
+    font-size: 5em;
+    font-family: Playfair_Display;
     color:#CCFFE5;
+    font-weight: 900;
 }
 .small-title{
     font-family: Playfair Display;
     color:#CCFFE5;
+    font-style: italic;
+    font-weight: 400;
 }
-/* eeey */
+.map-container-3{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-3 iframe{
+left:0;
+top:0;
+height:60vh;
+width:100%;
+position:absolute;
+}
+.localization{
+    background-color:#78bf9b;
+    height:60vh;
+}
+.localRow{
+    min-height:60vh;
+}
+#map-container-google-3{
+    height:60vh;
+    width:100%;
+    padding:0;
+}
+.local-title{
+    padding-top:15vh;
+}
+.place-card{
+    display: none;
+}

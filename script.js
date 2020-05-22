@@ -23,6 +23,16 @@ window.onload=()=>{
     const toggleMenu=()=>{
         document.body.style
     }
+  /*
+    let navBar = document.getElementsByClassName('stickyBar');
+window.addEventListener('scroll', (e) => { 
+    console.log(navBar);
+     if (window.scrollY > 500) {
+        navBar.addClass('fixed-top');
+     }
+      if (window.scrollY < 500) {
+        navBar.removeClass('fixed-top');
+     }
 }
-
-
+)*/
+}
