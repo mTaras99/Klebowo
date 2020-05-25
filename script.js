@@ -6,8 +6,9 @@ window.onload=()=>{
     let hambBar = document.getElementById('hambBar');
     let mainRow = document.getElementById('mainrow');
     let ariaEx = isExpanded.ariaExpanded;
-    console.log(ariaEx+" bej")
+    
     if(ariaEx=="false" || ariaEx===null){
+        console.log(ariaEx+" bej")
          document.body.style.overflow = 'hidden';
         leftArrow.style.display = "block";
         hambBar.style.display = "none";
@@ -35,4 +36,4 @@ window.addEventListener('scroll', (e) => {
      }
 }
 )*/
-}
+};
