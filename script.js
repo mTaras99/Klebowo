@@ -36,4 +36,15 @@ window.addEventListener('scroll', (e) => {
      }
 }
 )*/
+/*closeSignUp.onclick = (e) => {
+    let close = document.getElementById('signUp');
+    let body = document.body;
+    close.style.display = 'none';
+    let modalBackground = document.getElementsByClassName('modal-backdrop');
+    console.log(modalBackground);
+    body.classList.remove('modal-open');
+    body.style.paddingRight = '0';
+    body.removeChild(modalBackground);
+};
+*/    
 };
