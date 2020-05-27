@@ -124,10 +124,21 @@
     z-index: 2137;
     
 }
+.navItem > a{
+    color: black;
+}
 .navItem{
     height:15vh;
     font-size: 3em;
     text-align: center;
+    font-family: Playfair_Display;
+    font-weight: 600;
+    
+}
+.navItem:hover{
+    background-color:#BBEED4;
+    font-size:3.2em;
+    
 }
 .mainMotto{
     position:relative;
@@ -192,7 +203,7 @@ position:absolute;
 /* FORM */
 .regDiv{
     margin-left:30vw;
-    
+    position: fixed;
     max-height: 100vh;
 }
 .divider-text {
