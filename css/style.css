@@ -194,7 +194,7 @@ position:absolute;
     padding:0;
 }
 .local-title{
-    padding-top:15vh;
+    padding-top:16vh;
 }
 .place-card{
     display: none;
@@ -238,4 +238,10 @@ position:absolute;
 }
 .btn{
     text-transform: capitalize;
+}
+footer{
+    height:25vh;
+}
+.footmenu{
+    padding:5px;
 }
