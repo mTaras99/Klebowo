@@ -10,7 +10,7 @@
     height: 100vh;
 }
 .maincontent{
-    background-image: url(img/glowna.png);
+    background-image: url('../img/glowna.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -235,4 +235,7 @@ position:absolute;
 .btn-twitter {
     background-color: #42AEEC;
     color: #fff;
+}
+.btn{
+    text-transform: capitalize;
 }
