@@ -24,17 +24,16 @@
 .gallery {
 -webkit-column-count: 3;
 -moz-column-count: 3;
-column-count: 3;
--webkit-column-width: 33%;
--moz-column-width: 33%;
-column-width: 33%; }
+    column-count: 3;}
 .gallery .pics {
 -webkit-transition: all 350ms ease;
 transition: all 350ms ease; }
-.gallery .animation {
+
+/*.gallery .animation {
 -webkit-transform: scale(1);
 -ms-transform: scale(1);
 transform: scale(1); }
+*/
 
 @media (max-width: 450px) {
 .gallery {
