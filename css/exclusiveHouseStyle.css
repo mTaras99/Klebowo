@@ -56,3 +56,6 @@ padding-right: 1.1rem;
 .fa-search-plus{
     font-size:50px;
 }
+#image-gallery{
+    max-height: 100vh;
+}
