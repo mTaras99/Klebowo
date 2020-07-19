@@ -1,0 +1,276 @@
+@import url(https://fonts.google.com/specimen/Playfair+Display?selection.family=Lato|Playfair+Display:ital,wght@1,500;1,900&subset=latin-ext&preview.text=&preview.text_type=custom);
+.container-fluid{
+    max-width: 100vw;
+    min-height: 100%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    background-color: #e6eded     ;
+}
+.mainrow{
+    height: 100vh;
+}
+.maincontent{
+    background-image: url('../img/glowna2Rightv1xd.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
+.nav{
+    height: 20vh;
+    
+}
+
+.onas{
+    min-height:100vh;
+}
+.onaspng img{
+    background-size: cover;
+    height:100%;
+    position:absolute;
+}
+.onaspng{
+    height:100vh;
+}
+.onascontent{
+    text-align: justify;
+    line-height: 100vh;
+    height: 100vh;
+    width:100%;
+    background-color: #ffFFFF;
+    font-family: Playfair Display;
+    
+}
+.block-title{
+    font-size: 3.5em;
+    padding-top:30vh;
+    font-weight: 600;
+}
+.block-subtitle{
+    font-style: italic;
+    font-weight: 300;
+    
+}
+.button-is-blue{
+    height:50px;
+    width:100px;
+    background-color:#5ac7c1;
+    display:block;
+    position:absolute;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+    color: #CCFFE5;
+    margin-top: 20px;
+}
+.button-is-blue:hover{
+    text-decoration: none;
+    background-color:#49b6b0;
+    color: #CCFFE5;
+}
+.fhouse{
+    min-height:100vh;
+}
+.fhousepng{
+    height:100vh;
+}
+.fhousepng img{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+}
+.fhousecontent{
+    background-color:#ffffff;
+    height:100vh;
+    text-align: justify;
+    line-height: 100vh;
+    font-family: Playfair_display;
+}
+.houses-title{
+    padding-top: 20vh;
+}
+.buttis{
+    max-height:75px;
+    background-color:#5ac7c1;
+    position:absolute;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    color: #CCFFE5;
+    
+}
+.button-houses:hover{
+    text-decoration: none;
+    background-color:#49b6b0;
+    color: #CCFFE5;
+}
+.obejrzyjDomek{
+    max-height:75px;
+}
+#dupa{
+    min-width:100vw;
+    max-width:100vw;
+    height:100vh;
+    background-color:#ffb3b3;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2136;
+    padding: 60px 20px 60px 20px;
+}
+#isExpanded{
+    z-index: 2137;
+    
+}
+*, *:after, *:before {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.navItem > a{
+    color: black;
+}
+.navItem > a:before{
+    content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background: #ff8080;
+  visibility: hidden;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: .25s linear;
+}
+.navItem > a:hover:before,
+.navItem > a:focus:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.navItem{
+    height:15vh;
+    font-size: 3em;
+    text-align: center;
+    font-family: Playfair_Display;
+    font-weight: 600;
+    margin: auto;
+    
+}
+.navItem:hover{
+    font-size:3.2em;
+    
+}
+.mainMotto{
+    position:relative;
+    top:20vh;
+    text-align:center;
+}
+#navLogo{
+   width: 94%;
+    
+    text-align: center;
+    z-index: 619;
+    position:absolute;
+    display: inline-block;
+}
+.przycisk{
+    z-index: 620;
+}
+.hero-title{
+    font-size: 5em;
+    font-family: Playfair_Display;
+    color:#CCFFE5;
+    font-weight: 900;
+}
+.small-title{
+    font-family: Playfair Display;
+    color:#CCFFE5;
+    font-style: italic;
+    font-weight: 400;
+}
+.map-container-3{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-3 iframe{
+left:0;
+top:0;
+height:60vh;
+width:100%;
+position:absolute;
+}
+.localization{
+    background-color:#ffffff;
+    height:60vh;
+}
+.localRow{
+    min-height:60vh;
+}
+#map-container-google-3{
+    height:60vh;
+    width:100%;
+    padding:0;
+}
+.local-title{
+    padding-top:16vh;
+}
+.place-card{
+    display: none;
+}
+
+/* FORM */
+.regDiv{
+    margin-left:30vw;
+    position: fixed;
+    max-height: 100vh;
+}
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+}
+.btn{
+    text-transform: capitalize;
+}
+footer{
+    
+}
+.footmenu{
+    padding:5px;
+}
+@media (max-width: 450px){
+    #dupa{
+        padding:60px 0;
+    }
+}

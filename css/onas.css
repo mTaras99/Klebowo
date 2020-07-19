@@ -1,0 +1,77 @@
+container{
+    max-width: 100vw;
+}
+.onasmainrow{
+    height:60vh;
+    text-align: center;
+}
+#onasArtical{
+    
+    text-align:center;
+    max-width:100vw;
+    
+}
+.onas-hero-title{
+    font-size: 6em;
+    font-family: Playfair_Display;
+    color:#CCFFE5;
+    font-weight: 900;
+    
+}
+.onas-small-title{
+    font-family: Playfair_Display;
+    font-size: 4em;
+    color:#CCFFE5;
+    font-style: italic;
+    font-weight: 600;
+}
+#onasMain{
+
+    background-color:#FFFFFF;
+    
+    text-align: center;
+    max-width:95vw;
+}
+article{
+    max-width:100vw;
+}
+@media only screen and (min-width: 768px){
+    #onasMainContent{
+    margin-left:20vw;
+}
+#onasLocalization{
+    margin-left:20vw;
+}
+#onasContact{
+    margin-left:20vw;
+}
+};
+@media (min-width: @screen-sm-min){
+    article{
+        margin:0 0 0 0 ;
+        max-width: 100vw;
+    }
+    #onasArtical{
+    max-width:100vw;
+    margin: 0 0 0 0;
+    
+}
+    #onasMainContent{
+    margin: 0 0 0 0;
+}
+    .onas-hero-title{
+    font-size: 2em;
+    font-family: Playfair_Display;
+    color:#CCFFE5;
+    font-weight: 900;
+    
+}
+.onas-small-title{
+    font-family: Playfair_Display;
+    font-size: 1em;
+    color:#CCFFE5;
+    font-style: italic;
+    font-weight: 600;
+}
+    
+}
