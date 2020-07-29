@@ -16,7 +16,9 @@ container{
     font-family: Playfair_Display;
     color:#CCFFE5;
     font-weight: 900;
-    
+    vertical-align: middle;
+    position: absolute;
+    line-height: 45vh;
 }
 .onas-small-title{
     font-family: Playfair_Display;
@@ -74,4 +76,16 @@ article{
     font-weight: 600;
 }
     
+}
+@media (max-width: 450px) {
+.onas-hero-title{
+    font-family: Playfair_Display;
+    font-size: 2em;
+    color:#CCFFE5;
+    font-style: italic;
+    font-weight: 600;
+    vertical-align: middle;
+    position: absolute;
+    line-height: 45vh;
+}
 }
